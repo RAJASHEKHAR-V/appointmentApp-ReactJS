@@ -1,0 +1,252 @@
+.bg-container {
+  background-image: linear-gradient(to top, #9796f0, #fbc7d4);
+  min-height: 100vh;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-body {
+  background-color: #ffffff;
+  width: 70%;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.input-body {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.appointment-heading {
+  font-family: 'Roboto';
+  color: #171f46;
+  font-weight: bold;
+  width: 100%;
+}
+
+.form-card {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.form-el {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.title-label {
+  font-family: 'Roboto';
+  color: #b5b7c4;
+  font-weight: normal;
+  margin-bottom: 5px;
+}
+
+.title-input {
+  width: 80%;
+  height: 30px;
+  outline: none;
+  margin-bottom: 5px;
+}
+
+.date-label {
+  font-family: 'Roboto';
+  color: #b5b7c4;
+  font-weight: normal;
+  margin-bottom: 5px;
+}
+
+.date-input {
+  width: 80%;
+  height: 30px;
+  outline: none;
+  margin-bottom: 5px;
+}
+
+.add-button {
+  background-color: #8b5cf6;
+  min-height: 30px;
+  min-width: 90px;
+  max-height: 35px;
+  max-width: 100px;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+}
+
+.appointment-image {
+  width: 35%;
+}
+
+.hr-rule {
+  width: 80%;
+  border: 1px solid #b5b7c4;
+}
+
+.appointment-body {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.appointment-indication-card {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 5px;
+}
+
+.instruction-heading {
+  font-family: 'Roboto';
+  color: #171f46;
+  font-weight: 600;
+}
+
+.starred-button {
+  min-height: 28px;
+  min-width: 80px;
+  max-height: 30px;
+  max-width: 100px;
+  background-color: transparent;
+  border: 1px solid #9897f0;
+  font-family: 'Roboto';
+  color: #9897f0;
+  font-weight: 600;
+  border-radius: 5px;
+}
+
+.appointment-card {
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+  display: flex;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+@media (max-width: 767px) {
+  .input-body {
+    width: 90%;
+  }
+
+  .appointment-heading {
+    font-weight: 25px;
+  }
+
+  .form-el {
+    width: 100%;
+  }
+
+  .title-label {
+    font-size: 12px;
+  }
+
+  .title-input {
+    width: 100%;
+    font-size: 12px;
+  }
+
+  .date-label {
+    font-size: 12px;
+  }
+
+  .date-input {
+    width: 100%;
+    font-size: 12px;
+  }
+
+  .add-button {
+    font-size: 12px;
+  }
+
+  .appointment-image {
+    display: none;
+  }
+
+  .hr-rule {
+    width: 90%;
+    border: 1px solid #b5b7c4;
+  }
+
+  .appointment-body {
+    width: 90%;
+  }
+
+  .instruction-heading {
+    font-size: 18px;
+  }
+
+  .starred-button {
+    font-size: 12px;
+  }
+  .list-item {
+    width: 100%;
+    margin-right: 0px;
+  }
+
+  .title-el {
+    font-size: 15px;
+  }
+
+  .like-icon {
+    width: 70%;
+    height: 60%;
+  }
+
+  .date-el {
+    font-size: 12px;
+  }
+}
+
+@media (min-width: 768px) {
+  .appointment-heading {
+    font-weight: 50px;
+  }
+  .title-label {
+    font-size: 15px;
+  }
+
+  .title-input {
+    font-size: 15px;
+  }
+
+  .date-label {
+    font-size: 15px;
+  }
+
+  .date-input {
+    font-size: 15px;
+  }
+
+  .add-button {
+    font-size: 15px;
+  }
+
+  .instruction-heading {
+    font-size: 25px;
+  }
+
+  .starred-button {
+    font-size: 15px;
+  }
+
+  .title-el {
+    font-size: 18px;
+  }
+
+  .date-el {
+    font-size: 15px;
+  }
+}

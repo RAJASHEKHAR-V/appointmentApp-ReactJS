@@ -1,0 +1,45 @@
+.list-item {
+  width: 31%;
+  margin-right: 17px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  border: 1px solid #b5b7c4;
+  border-radius: 8px;
+  margin-bottom: 5px;
+  padding-left: 15px;
+}
+
+.title-card {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.title-el {
+  font-family: 'Roboto';
+  color: #171f46;
+  font-weight: 600;
+}
+
+.like-icon-button {
+  height: 35px;
+  width: 35px;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.like-icon {
+  width: 80%;
+  height: 70%;
+}
+
+.date-el {
+  font-family: 'Roboto';
+  color: #b5b7c4;
+  font-weight: 400;
+  width: 80%;
+}
